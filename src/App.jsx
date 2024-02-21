@@ -95,8 +95,8 @@ function App() {
 
   return (
     <main className="store">
-      <NavBar />
-      <ProductCardContainer />
+      <NavBar user={user}/>
+      <ProductCardContainer products={products} />
       <Footer />
     </main>
   );
